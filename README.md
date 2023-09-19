@@ -21,3 +21,9 @@
 
 # 参考文献
 [mini-NTP server with GPS](https://www.elektormagazine.com/labs/mini-ntp-server-with-gps)
+[PPS-ntp-server](https://github.com/DennisSc/PPS-ntp-server/tree/master)
+[ESP8266 as NTP Server?](https://stackoverflow.com/questions/75749120/esp8266-as-ntp-server)
+[ESP8266 GPS NTP Server in the making](https://esp8266hints.wordpress.com/2018/03/31/esp8266-gps-ntp-server-in-the-making/)
+[GNSSTimeServer](https://github.com/Montecri/GNSSTimeServer)
+[GNSSTimeServer-Dual-Display](https://github.com/Montecri/GNSSTimeServer/tree/Dual-Display)
+[gps-ntp-eth-esp32](https://github.com/MuratovAS/gps-ntp-eth-esp32)
