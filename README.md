@@ -1,19 +1,24 @@
 # ESPNTPServer
 
-GPS fueled ESP8266 based NTP Server
+基于GPS的ESP8266 NTP服务器
 
 [![Build Status](https://travis-ci.org/liebman/ESPNTPServer.svg?branch=master)](https://travis-ci.org/liebman/ESPNTPServer)
 
-[src](src) Contains the code for the NTP Server
+[src](src) 该目录下存放的是包含NTP服务器的代码
 
-[eagle](eagle) contains the schematic and board designs in Eagle cad.
+[eagle](eagle) 该目录下存放的是Eagle cad中的原理图和板设计。
 
-[enclosure](enclosure) contains the STL files for the enclosure.
+[enclosure](enclosure) 该目录下存放的是存储模块的STL文件。
 
-This is designed around [this GPS module](https://www.amazon.com/gp/product/B075DD5746/) but any module with standard NMEA output and a pult per second signal will work if you redesign the board or use an adapter.
 
-I also used [this display module](https://www.amazon.com/gp/product/B00O2KDQBE/).  You can use others but be careful with the power polarity, I have modules where VCC and ground pins are in a different order.
+
+该项目基于[这个GPS模块]设计的(https://www.amazon.com/gp/product/B075DD5746/)进行设计的。如果你重新设计电路板或使用其他的GPS模块的话，任何具有标准NMEA输出和每秒脉冲信号的模块都可以工作。
+
+我还使用了[这个显示模块](https://www.amazon.com/gp/product/B00O2KDQBE/)。你可以使用其他的，但要小心电源极性，我有VCC和接地引脚顺序不同的模块。
 
 ![Schematic](images/ESPNTPServer.png)
 ![assembly](images/open.png)
 ![running](images/closed.png)
+
+# 参考文献
+[mini-NTP server with GPS](https://www.elektormagazine.com/labs/mini-ntp-server-with-gps)
